@@ -1,0 +1,29 @@
+.InfoBox {
+    text-align: center;
+    margin-top: 25px;   /* space between button and card */
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Improve MUI Card look */
+.cardContainer .MuiCard-root {
+    width: 380px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover lift effect */
+.cardContainer .MuiCard-root:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.25);
+}
+
+/* Image size control */
+.cardContainer .MuiCardMedia-root {
+    height: 200px !important;
+}
