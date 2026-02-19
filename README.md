@@ -20,4 +20,4 @@ npm install
 npm run dev
 
 ## 🌐 Live Demo
-[Link:](https://69955bff2a06769612b071bc--cozy-bublanina-458874.netlify.app/)
+[https://69955bff2a06769612b071bc--cozy-bublanina-458874.netlify.app/]
